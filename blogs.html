@@ -7,32 +7,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nordic/0.1.0/nordic.min.css">
     <style>
         /* Custom styles */
-        body {
-            font-family: JetBrains Mono light, monospace;
+        html, body {
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height:fit-content;
-            margin: 0;
+            overflow-x: auto; /* Ensure horizontal scrollbars appear */
+            background-color: #2e3440; /* Set the background color */
+            color: #9398a7; /* Set the text color */
+            font-family: JetBrains Mono light, monospace;
+        }
+        main {
+            width: 100%;
+            max-width: 73.5rem;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
         }
         header {
             background-color: #2e3440;
             color: #9398a7;
-            padding: 0px;
             text-align: center;
+            width: 100%;
         }
         nav {
             background-color: #2e3440;
             padding: 10px 0;
             text-align: center;
-            text-decoration: none;
             word-spacing: -50px;
-        }
-        .width {
-            width: 73.5rem;
-            align-self: center;
         }
         nav a {
             color: #9398a7;
@@ -44,8 +44,11 @@
         nav a:hover {
             color: #eceff4;
             font-weight: 1000;
-            height: 5px;
-            text-decoration:none ;
+        }
+        .container {
+            margin: 20px 0;
+            background-color: #2e3440;
+            padding: 10px;
         }
         footer {
             background-color: #2e3440;
@@ -65,42 +68,24 @@
         a:hover {
             color: #eceff4;
             font-weight: 1000;
-            text-decoration:none ;
         }
-        h1, h2, h3, p, body {
+        h1, h2, h3, p {
             text-align: left;
-            background-color: #2e3440;
             color: #9398a7;
-            padding: 10px 300px;
             font-size: x-large;
-        }
-        h2 {
-            font-size: xx-large;
-            color:#eceff4
-        }
-        h6 {
-            font-weight:lighter;
-            text-align: left;
-            background-color: #2e3440;
-            color: #eceff4;
-            font-size: medium;
-            padding: 0px 300px;
-            color: #9398a7;
-        }
-        p {
-            padding: 0px 300px;
-        }
-        .container {
-            margin: 20px;
         }
         .indent1 {
             margin-left: -50px;
         }
-        .indent2 {
-            margin-left: 300px;
+        h2 {
+            font-size: xx-large;
+            color: #eceff4;
         }
         .bold {
             text-decoration: underline;
+        }
+        .indent2 {
+            margin-left: 300px;
         }
     </style>
 </head>
