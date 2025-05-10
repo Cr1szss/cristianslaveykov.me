@@ -11,8 +11,8 @@
             margin: 0;
             padding: 0;
             overflow-x: auto; /* Ensure horizontal scrollbars appear */
-            background-color: #2e3440; /* Set the background color */
-            color: #9398a7; /* Set the text color */
+            background-color: #1c1b1d; /* Darker background to match image tones */
+            color: #f1c6d0; /* Lighter text color */
             font-family: JetBrains Mono light, monospace;
         }
         main {
@@ -23,55 +23,56 @@
             box-sizing: border-box;
         }
         header {
-            background-color: #2e3440;
-            color: #9398a7;
+            background-color: #1c1b1d;
+            color: #f1c6d0;
             text-align: center;
             width: 100%;
         }
         nav {
-            background-color: #2e3440;
+            background-color: #1c1b1d;
             padding: 10px 0;
             text-align: center;
             word-spacing: -50px;
         }
         nav a {
-            color: #9398a7;
+            color: #f1c6d0;
             text-decoration: none;
             padding: 10px 20px;
             font-weight: 500;
-            color:#eceff4
+            transition: color 0.3s, text-shadow 0.3s;
         }
         nav a:hover {
-            color: #eceff4;
+            color: #e5a7c0; /* Slightly warmer hover color */
             font-weight: 1000;
+            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8); /* Glow effect */
         }
         .container {
             margin: 20px 0;
-            background-color: #2e3440;
+            background-color: #1c1b1d;
             padding: 10px;
         }
         footer {
-            background-color: #2e3440;
-            color: #9398a7;
+            background-color: #1c1b1d;
+            color: #f1c6d0;
             padding: 10px 0;
             text-align: center;
             position: fixed;
             bottom: 0;
             width: 100%;
         }
-        a{
-            color: #9398a7;
+        a {
+            color: #f1c6d0;
             text-decoration: none;
             font-weight: 500;
-            color:#d8dee9
         }
         a:hover {
-            color: #eceff4;
+            color: #e5a7c0;
             font-weight: 1000;
+            text-shadow: 0 0 10px rgba(255, 182, 191, 0.8); /* Glow effect */
         }
         h1, h2, h3, p {
             text-align: left;
-            color: #9398a7;
+            color: #f1c6d0;
             font-size: x-large;
         }
         .indent1 {
@@ -79,7 +80,7 @@
         }
         h2 {
             font-size: xx-large;
-            color: #eceff4;
+            color: #e5a7c0; /* Lighter pink tone for emphasis */
         }
         .bold {
             text-decoration: underline;
@@ -108,4 +109,3 @@
     </body>
 </main>
 </html>
-
